@@ -5,9 +5,9 @@ RUN wget https://poppler.freedesktop.org/poppler-data-0.4.9.tar.gz \
 	&& cd poppler-data-0.4.9 \
 	&& make install \
 	&& cd .. \
-	&& wget https://poppler.freedesktop.org/poppler-20.09.0.tar.xz \
-	&& tar -xf poppler-20.09.0.tar.xz \
-	&& cd poppler-20.09.0 \
+	&& wget https://poppler.freedesktop.org/poppler-20.10.0.tar.xz \
+	&& tar -xf poppler-20.10.0.tar.xz \
+	&& cd poppler-20.10.0 \
 	&& mkdir build \
 	&& cd build \
 	&& cmake .. \

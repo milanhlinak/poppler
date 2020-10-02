@@ -9,7 +9,7 @@ docker run --name poppler milanhlinak/poppler
 ## Verify Poppler version
 ```
 docker exec -it poppler pdftotext -v
-pdftotext version 20.09.0
+pdftotext version 20.10.0
 Copyright 2005-2020 The Poppler Developers - http://poppler.freedesktop.org
 Copyright 1996-2011 Glyph & Cog, LLC
 ```
